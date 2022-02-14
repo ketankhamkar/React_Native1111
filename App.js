@@ -1,15 +1,14 @@
-import React from 'react';
-import { Text, View } from 'react-native';
-import Registration from './Components/Registration';
+import React from "react";
+import { ImageBackground, StyleSheet, Text, View } from "react-native";
+import Image123 from './Components/Image123'
+import StackNav from "./Components/StackNav";
 
-const App = () => {
+
+const App = () => (
+  <Image123/>
+
+);
 
 
-    return (
-      <View>
-        <Registration />
-      </View >
-    )
 
-}
 export default App;
