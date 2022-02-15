@@ -1,10 +1,11 @@
 import React from "react";
-import { ImageBackground, StyleSheet, Text, View } from "react-native";
+import { ImageBackground,StatusBar, StyleSheet, Text, View } from "react-native";
 
 const image = { uri: "https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg?region=0%2C0%2C540%2C810" };
 
 const App = () => (
   <View style={styles.container}>
+    <StatusBar backgroundColor="blue" barStyle='dark-content'/>
     <ImageBackground source={image} resizeMode="cover" style={styles.image}>
       <Text style={styles.text}>End-Game</Text>
     </ImageBackground>

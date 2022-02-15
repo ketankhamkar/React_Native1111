@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Registration from './Registration';
 import FlatList from './FlatList111'
+import Image from './Image123';
 
 function HomeScreen({ navigation }) {
   return (
@@ -26,6 +27,11 @@ function HomeScreen({ navigation }) {
         title="Go to FlatList"
         onPress={() => navigation.navigate('FlatList')}
       />
+      </View>
+      <View style={Styles.btn}>
+        <Button title="GO TO Image"
+          onPress={() => navigation.navigate('Image')}
+        />
       </View>
     </View>
   );

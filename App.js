@@ -1,14 +1,20 @@
-import React from "react";
-import { ImageBackground, StyleSheet, Text, View } from "react-native";
-import Image123 from './Components/Image123'
-import StackNav from "./Components/StackNav";
+import React from 'react';
+import {View,Text }
+  from 'react-native';
+ import { WebView } from 'react-native-webview';
+import Image from './Components/Image123';
+import MyApp from './Components/MyApp';
+import Registration from './Components/Registration';
+import SwichExample from './Components/SwichExample';
+import Webview123 from './Components/webview123';
 
+const App = () => {
 
-const App = () => (
-  <Image123/>
+  return (
 
-);
+      <SwichExample />
 
+  );
 
-
+}
 export default App;
